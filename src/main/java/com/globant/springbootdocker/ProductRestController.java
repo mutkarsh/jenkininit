@@ -17,7 +17,7 @@ public class ProductRestController {
 		products.add(new Product(1, "pen", 10));
 		products.add(new Product(2, "book", 50));
 		products.add(new Product(3, "pencil", 5));
-		
+		System.out.println("constructor running");
 		
 	}
 	
